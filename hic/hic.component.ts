@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HIC } from './hic.module';
 
 @Component({
   selector: 'wa-hic',
