@@ -1,10 +1,9 @@
-
-
-export class Weather {
-    constructor(
-                public temperature: number,
-                public weathercode: number,
-                public winddirection: number
-                ){}
+export interface Weather {
+    latitude: number;
+    longitude: number;
+    generationtime_ms: number;
+    utc_offset_seconds: number;
+    timezone: string;
+    timezone_abbreviation: string;
+    elevation: number;
 }
-
