@@ -24,7 +24,8 @@ export class WeatherComponent implements OnInit {
     const lat = this.location.latitude;
     const lon = this.location.longitude;
     this.ws.localWeather(lat, lon).subscribe(Response) 
-    new Weather(.temperature, .weathercode, .winddirection: ) = this.myWeather.temperature
+    this.myWeather = new Weather(WeatherService.temperature, weatherCode, winddirection)
+
    }
 
 }

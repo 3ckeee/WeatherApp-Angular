@@ -7,7 +7,7 @@ import { HIC } from './hic.module';
   styleUrls: ['./hic.component.css']
 })
 export class HicComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit(): void {
